@@ -6,4 +6,15 @@ export const theme = createTheme({
             main: "#F4005E",
         },
     },
+    typography: {
+        h1: {
+            fontSize: "20px"
+        }
+    },
+    breakpoints:{
+        values:{
+            xs: 200,
+        }
+    }
+
 });
