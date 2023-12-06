@@ -1,8 +1,18 @@
 import React from 'react';
+import { Box, Typography } from '@mui/material';
+import { useTheme } from '@emotion/react';
 
 function Test() {
+    const theme = useTheme();
+    console.log(theme);
     return (
-        <div>Test</div>
+        <Box>
+<Typography color="primary">
+    Hello World
+</Typography>
+        </Box>
+        
+
     )
 }
 
